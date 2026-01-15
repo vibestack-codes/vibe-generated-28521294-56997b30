@@ -4,6 +4,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
 import { Menu } from 'lucide-react'
 import { useState } from 'react'
 import { FloatingDashboard } from '@/components/FloatingDashboard'
+import { LogoCarousel } from '@/components/LogoCarousel'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -106,6 +107,9 @@ function App() {
             <FloatingDashboard />
           </div>
         </section>
+
+        {/* Logo Carousel Section */}
+        <LogoCarousel />
       </main>
 
       <Toaster position="bottom-right" />
