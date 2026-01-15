@@ -6,6 +6,7 @@ import { useState } from 'react'
 import { FloatingDashboard } from '@/components/FloatingDashboard'
 import { LogoCarousel } from '@/components/LogoCarousel'
 import { FeaturesGrid } from '@/components/FeaturesGrid'
+import { Timeline } from '@/components/Timeline'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -114,6 +115,9 @@ function App() {
 
         {/* Features Grid Section */}
         <FeaturesGrid />
+
+        {/* Timeline Section */}
+        <Timeline />
       </main>
 
       <Toaster position="bottom-right" />
