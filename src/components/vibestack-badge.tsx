@@ -21,9 +21,6 @@ export function VibeStackBadge() {
       <span className="text-xs font-medium">Made with</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        xmlnsXlink="http://www.w3.org/1999/xlink"
-        width="91"
-        height="15"
         viewBox="0 0 182.413 29.225"
         className="h-4 w-auto"
         aria-hidden="true"
